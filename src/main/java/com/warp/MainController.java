@@ -62,6 +62,7 @@ public class MainController implements Initializable {
 
     }
 
+
     private String[] ValidateUserStrings(String s)
     {
        String tmp = s.replaceAll("[\\s\\n]+", " ").replaceAll(" (?=" + LINE_BREAKER + ")", "");
